@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShot renders correctly with props 1`] = `
+<div>
+  <div>
+    <span>
+      Hello 
+      John
+      !
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SnapShot renders correctly without no props 1`] = `
+<div>
+  <div>
+    <span>
+      Hello 
+      World
+      !
+    </span>
+  </div>
+</div>
+`;
