@@ -96,4 +96,30 @@ React Testing Library is a library that provides a simple and complete API for t
 
 Recipes With React Testing Library
 
+### Some Syntax and Concepts
+
+@testing-library/react - This package provides a set of utilities for testing React components.
+
+```javascript
+import { render, screen } from "@testing-library/react";
+
+//render - This function is used to render a React component.
+const { container } = render(<MyComponent />);
+
+//screen - This object is used to interact with the rendered component.
+const button = screen.getByText("Click me");
+```
+
+@testing-library/user-event - This package provides a set of utilities for simulating user events in a React application.
+
+```javascript
+import { fireEvent } from "@testing-library/user-event";
+
+fireEvent.click(button);
+```
+
+More information about the syntax and concepts can be found in the official documentation.
+
+[React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro)
+
 - [Recipes](react/recipes.md)
